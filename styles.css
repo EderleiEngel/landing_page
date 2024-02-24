@@ -54,7 +54,7 @@ ul {
 
 input {
     text-align: center;
-    width: 80%;
+    width: 20%;
     padding: 10px;
     border: 2px solid rgb(189, 183, 107) ;
 }
@@ -67,6 +67,12 @@ footer {
 }
 
 .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
     display: flex;
     justify-content: center;
     align-items: center;
